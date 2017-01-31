@@ -1,0 +1,80 @@
+/* Tools & Mix-Ins */
+
+.textCenter {
+    text-align:center;
+}
+
+.inline {
+    display:inline;
+}
+
+.block {
+    display:block;
+}
+
+.inlineBlock {
+    display:inline-block;
+}
+
+.smallMarginTop {
+    margin-top:15px;
+}
+
+.mediumMarginTop {
+    margin-top:20px;
+}
+
+/* Fixes */
+
+.navbar {
+    margin-bottom:20px;
+}
+
+.btn-h1-spacing {
+    margin-top:2px;
+}
+
+.form-spacing-top {
+    margin-top:15px;
+}
+.cardPadding {
+    padding: 15px;
+}
+
+/* User Authentication Styles */
+
+.userGreeting,.userGreeting:link ,.userGreeting:hover,.userGreeting:visited,.userGreeting:active {
+    float:left;
+    padding-top:.25rem;
+    padding-bottom:.25rem;
+    margin-right:1rem;
+    font-size:1.25rem;
+    line-height:inherit;
+    text-decoration:none;
+}
+
+#registerForm .help-block, #loginForm  .help-block {
+    display:none;
+}
+
+/* Parsley Styles */
+
+.parsley-errors-list {
+    background-color:#D9534F;
+    margin:2px 0 0 0;
+    border:2px solid #D9534F;
+    border-radius:3px;
+    padding:0 0 0 5px;
+}
+
+.parsley-errors-list li {
+    font-size:1rem;
+    list-style:none;
+    color:#ffffff;
+}
+
+/* Admin Post View Index Styles */ 
+
+#postAdminView .table th {
+    border-top:none;
+}
